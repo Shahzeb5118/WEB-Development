@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+             
+        }
+        form{
+            border: 3px solid black;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px;
+            background-color: aquamarine;
+        }
+        h1,p{
+            text-align: center;
+        }
+        #logo{
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            border-radius: 50%;
+        }
+        .StudentInformations{
+            margin-top: 8%;
+        }
+        fieldset{
+            border: 1px solid black;
+        }
+        legend{
+            font-weight: bold;
+        }
+        .mn,.ln,.sid, .cnic{
+            margin-left: 10%;
+        }
+        button{
+            font-size: 20px;
+            border: 2px solid black;
+            border-radius: 10%;
+            /* color: blueviolet; */
+            background-color: green;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <Form action="">
+        <img src="./images/onicbyte_logo.jpg" alt="" id="logo">
+    <h1>Students Registration Form</h1>
+    <p>Fill out the form to apply for the training courses.
+       You can consider your application acceptd after you receive a conformation email</p>
+
+       <h
+       2 class="StudentInformations">Students Information</h2>
+        <label for="name">First Name:</label>
+        <input type="text" name="name" placeholder="Enter Your First Name">
+        <label for="name" class="mn">Middle Name:</label>
+        <input type="text" name="name"  placeholder="Enter Your Middle Name">
+        <label for="name" class="ln">Last Name:</label>
+        <input type="text" name="name" placeholder="Enter Your Last Name"> <br> <br>
+        <label for="DOB">Date Of Birth:</label>
+        <input type="numer" name="dob" placeholder="Enter Your Date Of Birth">
+        <label for="ID" class="sid">Students ID:</label>
+        <input type="number" name="ID" placeholder="Enter Your ID"> 
+        <label for="CNIC" class="cnic">Students CNIC:</label>
+        <input type="number" name="CNIC" placeholder="Enter Your CNIC"> <br><br>
+        
+
+        <fieldset>
+        <legend>Address</legend>
+        <label for="Street Adress">Street Adress:</label>
+        <input type="text" name="Street Address" placeholder="Enter Your Street Address"><br> <br>
+        <label for="State/Province">State/Province:</label>
+        <input type="text" name="Street/Province" id="SP" placeholder="Enter Your Street Province">
+        <label for="city">City:</label>
+        <input type="text" name="city" id="City" placeholder="Enter Your City Name"> <br><br>
+        <label for="country">Country:</label>
+        <input type="text" name="country" id="Country" placeholder="Enter Your Country Name">
+        <label for="zipcode">ZipCode:</label>
+        <input type="number" name="zipcode" id="zipcode" placeholder="Enter Your ZipCode">
+    </fieldset> <br><br>
+    <button>Submitt</button>
+
+
+    </Form>
+</body>
+</html>
